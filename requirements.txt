@@ -1,0 +1,11 @@
+# Siempre hace falta:
+pypdf
+
+# Para la interfaz gráfica (pdf_a_audio_gui.py): voz neuronal natural, necesita internet
+edge-tts
+
+# Reserva: si las voces de Edge fallan, la interfaz prueba automáticamente con esta
+gTTS
+
+# Motor offline de pdf_a_audio.py (línea de comandos), opcional
+pyttsx3
