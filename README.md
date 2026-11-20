@@ -1,7 +1,5 @@
 # PDF a audio
 
-Programa independiente (sin relación con ningún otro proyecto) que convierte el texto de un PDF en un archivo de audio con voz natural. Dos formas de usarlo: con ventana (recomendado) o por línea de comandos.
-
 ## Qué incluye
 
 - Interfaz gráfica sencilla: elegir PDF, elegir voz, convertir, guardar el MP3 donde quieras.
