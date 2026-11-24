@@ -1,11 +1,16 @@
 # Siempre hace falta:
 pypdf
+reportlab
 
-# Para la interfaz gráfica (pdf_a_audio_gui.py): voz neuronal natural, necesita internet
+# Para la interfaz gráfica, dirección PDF -> MP3: voz neuronal natural, necesita internet
 edge-tts
 
 # Reserva: si las voces de Edge fallan, la interfaz prueba automáticamente con esta
 gTTS
+
+# Para la interfaz gráfica, dirección MP3 -> PDF: transcripción en local (Whisper)
+faster-whisper
+av<19  # faster-whisper 1.2.1 aún no admite PyAV 19 (ver SYSTRAN/faster-whisper#1495)
 
 # Motor offline de pdf_a_audio.py (línea de comandos), opcional
 pyttsx3
